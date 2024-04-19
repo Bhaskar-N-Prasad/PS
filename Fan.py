@@ -23,8 +23,6 @@ a = 10
 b = 10
 print(a is b)
 print(id(b))
-b = 20
-print(a is b)
-print(id(b))
 print(id(a))
 print(a)
+b = 20
