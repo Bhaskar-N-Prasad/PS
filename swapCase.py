@@ -19,18 +19,33 @@ str2 = "Sita"
 
 ############String Interning#####
 
-str1 = "Rama"
-str2 = "Sita"
-str3 = "Ravana"
-str4 = "Rama"
-str5 = "Rama"
-str6 = "Sita"
-str7 = "Ravana"
+# str1 = "Rama"
+# str2 = "Sita"
+# str3 = "Ravana"
+# str4 = "Rama"
+# str5 = "Rama"
+# str6 = "Sita"
+# str7 = "Ravana"
 
-print(id(str1))
-print(id(str4))
-print(id(str5))
-print(id(str2))
-print(id(str6))
-print(id(str3))
-print(id(str7))
+# print(id(str1))
+# print(id(str4))
+# print(id(str5))
+# print(id(str2))
+# print(id(str6))
+# print(id(str3))
+# print(id(str7))
+
+
+str = "      Rama is studying      "
+str1 = str.lstrip()
+print(str1)
+str2 = str.rstrip()
+print(str2)
+str3 = str.strip()
+print(str3)
+# str4 = str.replace(" ","")
+# print(str4)
+str4 = "Rama is studying"
+str5 = str4.split()
+print(str5)
+print(len(str5))
