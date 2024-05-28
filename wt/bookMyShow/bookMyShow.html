@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My show</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style type="text/css">
+        .first_header{
+            width: 100%;
+             height: 45%;
+        }
+        #logo{
+                height: 60px;
+                width: 100px;
+                margin-left: 135px;
+        }
+        #searchbar{
+            width: 45%;
+            height: 30px;
+            margin-left: 15px;
+            position: relative;
+            top: -25px;
+        }
+        #search_iocn{
+            color: gray;
+            font-size: 20px;
+            position: relative;
+            left: -680px;
+           top: -20px;
+        }
+        #search_iocn:focus{
+            outline: none;
+        }
+      #dropdownlist{
+        border: none;
+        position: relative;
+        font-size: 20px;
+        left:150px;
+        top: -20px;
+      }
+
+      #menu_bar{
+        position: relative;
+        left: 200px;
+        top: -20px;
+        
+      }
+      #signin{
+        font-size: 20px;
+        position: relative;
+        left: 180px;
+        top: -20px; 
+        background-color: rgb(229, 83, 103); 
+        border: none;   
+        color: white;
+        border-radius: 5px;
+      }
+
+      .second_header{
+        
+        height: 65px;
+        background-color: #d9d4d5;
+        margin-left: -10px;
+        margin-top: -5px;
+        list-style-type: none;
+			margin:0;
+			padding: 0;
+			overflow:hidden;
+			background: #1f2533;
+            display:inline-block;
+            width: 100%; 
+      }
+
+      .second_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa; 
+}
+
+.s-left,
+.s-right {
+    display: flex;
+    gap: 15px; 
+    color: black;
+}
+
+.s-left {
+    justify-content: flex-start;
+}
+.s-right {
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+/* 
+.s-right {
+    
+    justify-content: flex-end;
+    position: relative;
+    margin-right: auto;
+    padding-right: 20px;
+    display: flex;
+    gap: 15px; 
+    margin-right: auto; 
+    position: relative;
+    right: 20px;
+} */
+
+.s-right {
+    display: flex;
+    gap: 15px; 
+    /margin-right: auto;/ 
+    position: relative;
+    right: 20px; 
+}
+.main img{
+        width: 100%;
+        
+    }
+.card{
+    display: flex;
+    justify-content: space-around ;
+    margin:20px 50px 20px 50px;
+
+  
+}
+.card img{
+    height: 20%;
+    width: 20%;  
+    border-radius: 10px;
+    
+}
+.container h2{
+        text-align: center;
+        padding:22px ;
+    }
+    .container .card{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+
+    }
+    .card img{
+        width: 17%;
+        margin-inline: 15px;
+        border-radius: 10px;
+    }
+    
+    .banner img{
+        width: 100%;
+        margin-top: 33px;
+    }
+    .premiere{
+        background-color: rgb(15, 15, 29);
+        padding: 22px;
+        margin-top: 40px;
+        color: white;
+    }
+    .premiere  .containers{
+        margin-top: 33px;
+    }
+     .containers .card{
+        margin-top: 11px;
+     }
+     .containers img{
+       height: 20%;
+       width: 20%;
+       border-radius: 20px;
+       margin-left: 50px;
+     }
+    </style>
+</head>
+<body>
+    <div class="bmswrapper">
+
+        <div class="first_header">
+            <img src="./bookMyShow.jpg" alt="" id="logo">
+            
+            <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;   Search for Movies, Events, Plays, Sports and activites " id="searchbar" >
+            <span class="material-symbols-outlined" id="search_iocn">
+                search
+                </span>
+
+            <select id="dropdownlist">
+                <option>Bengaluru</option>
+                <option>Shimoga</option>
+            </select>
+
+            <button id="signin">Sign in</button>
+            <span class="material-symbols-outlined" id="menu_bar">
+                menu
+                </span>
+        </div>
+
+        <div class="second_header">
+            <div class="s-left">
+                 <p>Movies</p>
+                 <p>Stream</p>
+                 <p>Events</p>
+                 <p>Activities</p>
+                 <p>Buzz</p>
+
+            </div>
+
+            <div class="s-right">
+                <p>ListYourShow</p>
+                <p>Corporates</p>
+                <p>Offer</p>
+                <p>GiftCards</p>
+     
+                
+           </div>
+        </div>
+
+    </div>
+
+    <div class="main"> 
+        
+        <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1716447254718_freeaccessweb.jpg" alt="">
+        <h2>Recommended Movies</h2>
+        <div class="card">
+
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTUuM0sgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00377865-zzueuadqky-portrait.jpg" alt="">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NEsgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00365584-hksmhrhbcv-portrait.jpg" alt="" srcset="">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAzMC45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395524-eeyedkkavx-portrait.jpg" alt="">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MS42SyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00381082-ztsvjpjdgv-portrait.jpg" alt="" srcset="">
+        </div>
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png" alt="">
+    </div>
+    
+    <div class="container">
+        <h2>Best Of Live Events</h2>
+        <div class="card">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MS42SyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00381082-ztsvjpjdgv-portrait.jpg" alt="" srcset="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAzMC45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395524-eeyedkkavx-portrait.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAzMC45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395524-eeyedkkavx-portrait.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAzMC45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395524-eeyedkkavx-portrait.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MS42SyBMaWtlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00381082-ztsvjpjdgv-portrait.jpg" alt="" srcset="">
+             
+        </div>
+    </div>
+
+    <div class="premiere">
+          
+            <h1>PREMEIRE</h1>
+         
+
+         <div class="containers">
+            <h2>Premeires</h2>
+            <p>Brand New Release Every Friday</p>
+<img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyNSBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00395372-ncxwllnquv-portrait.jpg" alt="" srcset="">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTUuM0sgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00377865-zzueuadqky-portrait.jpg" alt="">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTUuM0sgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00377865-zzueuadqky-portrait.jpg" alt="">
+        <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NTUuM0sgTGlrZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00377865-zzueuadqky-portrait.jpg" alt="">     
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <h2>Recommended Movies</h2>
+        <div class="card">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAzMC45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395524-eeyedkkavx-portrait.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAzMC45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395524-eeyedkkavx-portrait.jpg" alt="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyNSBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00395372-ncxwllnquv-portrait.jpg" alt="" srcset="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAyNSBNYXk%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00395372-ncxwllnquv-portrait.jpg" alt="" srcset="">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAzMC45SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00395524-eeyedkkavx-portrait.jpg" alt="">
+ 
+        </div>
+    </div>
+    <footer>
+        <img src="./footer.png" alt="" srcset="">
+    </footer>
+</body>
+</html>
