@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Form</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+            background-color: gray;
+            padding-bottom:20px ;
+        }
+        .formm{
+            margin-left: 50%;
+            margin:10% 0 0 38%;
+            background-color: rgb(121, 121, 121);
+            padding-top:0px ;
+            padding-left: 20px;
+            padding-right: 25px;
+            padding-bottom: 10px;
+            position: absolute;
+            top:40px;
+            border-radius: 1px;
+        }
+        .formm label{
+            display: flex;
+            flex-direction: column;
+        }
+        #submit{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: rgb(99, 6, 6);
+            color: aliceblue;
+            width: 103%;
+        }
+        form input{
+            margin: 5px 0 5px 0;
+            width: 100%;
+            border: 1px solid black;
+            border-radius: 2px;
+            padding: 5px;
+        }
+        form select{
+            margin: 5px 0 5px 0;
+            width: 103%;
+            border: none;
+            border-radius: 2px;
+            padding: 5px;
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1 style="font-family: Arial;letter-spacing: 4px;">INTERNET BANKING</h1>
+    </div>
+    <div style="margin: 0px;">
+        <img id="image" width="100%" src="https://images.unsplash.com/photo-1500731250117-4b0cbb8b276a?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+    </div>
+    <div class="topp">
+        <div class="formm">
+            <form>
+                <h2 style="text-align: center;padding-top:10px ;font-family: Arial; padding:0px 20px 0px 20px;letter-spacing: 3px;">LOAN APPLICATION</h2>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label for="Bank Name">Bank Name</label>
+                <select name="Bank Name" id="">
+                    <option value="">Select Bank Name</option>
+                    <option value="">Canara</option>
+                    <option value="">HDFC</option>
+                </select>
+                <label for="Loan Amount">Loan Amount</label>
+                <input type="text" name="Loan Amount" id="Loan Amount" placeholder="Enter your Loan Amount">
+                <label for="Loan Term">Loan Term(in months)</label>
+                <input type="text" name="Loan Term" id="Loan Term" placeholder="Enter your Loan Term in months">
+                <input style="letter-spacing: 4px;" id="submit" type="submit" value="SUBMIT NOW">
+        </div>
+    </div>
+    
+</body>
+</html>
