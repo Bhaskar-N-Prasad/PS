@@ -1,17 +1,8 @@
-from abc import ABC, abstractmethod
-
-
-# To achieve abstraction we import class called ABC from abc and abstractmethod from abc . 
-#IF we add a decorator and extend to base class we can achieve abstraction. Here the object of base class cannot be created.
-# The abstract methods in the base class should be overridden by child class.
-class Plane(ABC):
-    @abstractmethod
-    def takeoff(self):
-        pass
-    @abstractmethod
+class Plane():
+    # def takeoff(self):
+    #     print("Plane takeoff")
     def fly(self):
-        pass
-    # @abstractmethod
+        print("Plane flying")
     def land(self):
         print("Plane is flying")
 class Cargoplane(Plane):
@@ -19,8 +10,8 @@ class Cargoplane(Plane):
         print("Cargo is taking off")
     def fly(self):
         print("Cargo is flying")
-    # def land(self):
-    #     print("Cargo is landing")
+    def land(self):
+        print("Cargo is landing")
     def carryc(self):
         print("Cargo is carrying goods")
 class Passengerplane(Plane):
