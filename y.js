@@ -1,25 +1,21 @@
-// var arr = [1,2,5,3,7,5,8,5]
-// var x = {}
-// for(var i = 0;i<arr.length;i++){
-//     if(x[arr[i]]){
-//         x[arr[i]] = x[arr[i]] + 1
-//         }else{
-//             x[arr[i]] = 1
-//         }
-// }
-// var k = 5
-// console.log(x[k]);
+const promiseFour = new Promise((resolve, reject) => {
+    setTimeout(function(){
+        let error = false;
+        if (!error) {
+            resolve({username: "Bhaskar", password:"1234"})
+        }else{
+            reject('ERROR: Something Went Wrong')
+        }
+    }, 1000)
+})
 
-
-obj= {
-    name: "Bhaskar",
-    2:2,
-    3:1,
-    5:[1,2,3,4,5],
-    fname:(name)=>{
-        console.log(`My name is ${this.name}`);
-    }
-}
-obj.fname("Bhaskarrrrrr")
-// console.log(obj);
-
+promiseFour.then((user)=>{
+    console.log(user);
+    return user.username
+}).then((username)=>{
+    console.log(username);
+}).catch(function(error){
+    console.log(error);
+}).finally(()=>{
+    console.log("The Promise is either resolved or rejected");
+})
