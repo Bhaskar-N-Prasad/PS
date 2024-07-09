@@ -17,3 +17,11 @@ print(t[3][0])
 print(t[4])
 print(t[3][2][0])
 print(t[-2][-1][-1])
+
+
+####### Insertion and Deletion in tuple
+t = (10,20,30,[40],50,60)
+t2 = t[:2] + (25,) + t[2:]
+print(t2)
+t3 = t[:3] + t[4:]
+print(t3)
